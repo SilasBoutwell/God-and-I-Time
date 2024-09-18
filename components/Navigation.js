@@ -1,11 +1,19 @@
-import { View, } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 
 function Navigation() {
   return (
-    <View>
+    <View style={styles.container}>
 
     </View>
   );
 };
 
 export default Navigation;
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 2,
+    borderWidth: 1,
+    borderColor: 'red',
+  }
+});

@@ -1,11 +1,19 @@
-import { View, } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 
 function Body() {
   return(
-    <View>
+    <View style={styles.container}>
 
     </View>
   );
 };
 
 export default Body;
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 12,
+    borderWidth: 1,
+    borderColor: 'red',
+  }
+});
